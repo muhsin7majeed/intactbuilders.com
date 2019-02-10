@@ -132,17 +132,16 @@ body {
 
 .hashir a,
 .hashim a,
-.hashir2 a{
+.hashir2 a {
     font-size: 20px;
     color: #2B2B2B;
     opacity: .8;
 }
 
 /* Services */
-#services{
-    
-}
-#services img{
+#services {}
+
+#services img {
     object-fit: cover;
     object-position: center;
     min-height: 600px;
@@ -150,11 +149,12 @@ body {
     filter: brightness(50%);
     height: 100vh;
 }
+
 /* Contact Me */
 
-.contact{
+.contact {
     width: 100%;
-    background: url(/assets/images/backgrounds/bg2.jpg);
+    background: url({{ site.contactBackground }});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,11 +165,13 @@ body {
     position: relative;
     color: #ffffff;
 }
-.vis{
+
+.vis {
     position: relative;
     z-index: 6;
 }
-#conbg{
+
+#conbg {
     width: 100%;
     min-height: 650px;
     height: 100vh;
@@ -181,10 +183,12 @@ body {
     top: 0;
     left: 0;
 }
-.contacthead{
+
+.contacthead {
     margin-bottom: 10px;
 }
-.contact input{
+
+.contact input {
     min-width: 300px;
     width: 50%;
     padding: 15px;
@@ -194,47 +198,53 @@ body {
     outline: none;
     text-align: center;
 }
-textarea{
+
+textarea {
     min-width: 300px;
     width: 50%;
     height: 150px;
     border-radius: 50px;
-    border :none;
+    border: none;
     text-align: center;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     outline: none;
 }
-#email{
+
+#email {
     margin-bottom: 10px;
 }
-.contact button{
+
+.contact button {
     padding: 10px 30px;
     border-radius: 50px;
     border: none;
     margin: 20px;
     background-color: #ffffff;
     cursor: pointer;
-    
+
 }
-.social{
+
+.social {
     font-size: 20px;
     color: #2B2B2B;
 }
-.social i{
+
+.social i {
     padding: 10px;
     background-color: #ffffff;
     border-radius: 50px;
     margin: 5px;
     cursor: poi650r;
-    
+
 }
 
 /* Gallery */
-.gallery{
+.gallery {
     width: 100%;
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
     min-height: 600px;
     filter: brightness(90%);
@@ -242,70 +252,91 @@ textarea{
     object-fit: cover;
     object-position: center;
 }
-.hashir2{
+
+.hashir2 {
     display: none;
 }
 
 @media only screen and (max-width: 1080px) {
-    .boldhead{
+    .boldhead {
         font-size: 48px;
     }
-    .lighthead{
+
+    .lighthead {
         font-size: 38px;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    .heads{
+    .heads {
         padding-top: 35%;
     }
-    .team1, .team2{
+
+    .team1,
+    .team2 {
         display: block;
         text-align: center;
         margin: 50px 0;
     }
-    .hashir{
+
+    .hashir {
         display: none;
     }
-    .hashir2{
+
+    .hashir2 {
         display: block;
     }
+
     .hashir,
     .hashim {
         margin: 0;
         line-height: 1px;
     }
-    #ourteam{
+
+    #ourteam {
         padding-top: 30px;
     }
 }
+
 @media only screen and (max-width: 500px) {
-    .heads{
+    .heads {
         padding-top: 40%;
+        padding-left: 10px;
     }
-    .lighhead,#aboutusdesc{
+
+    .lighhead,
+    #aboutusdesc {
         font-size: 22px;
     }
-    .boldhead{
+
+    .boldhead {
         font-size: 32px;
     }
-    #aboutushead,#ourteam{
+
+    #aboutushead,
+    #ourteam {
         font-size: 28px;
     }
+
     .ourteamavatars img {
         width: 150px;
         height: 150px;
     }
+
     .hashir h1,
     .hashim h1 {
         font-size: 30px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         font-size: 16px !important;
     }
-    .navbar{
+
+    .navbar {
         padding: 0 20px !important;
     }
-    .gallery img{
+
+    .gallery img {
         width: 100%;
         min-height: 500px;
         filter: brightness(90%);

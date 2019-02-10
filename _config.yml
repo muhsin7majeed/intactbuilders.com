@@ -1,5 +1,4 @@
-
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/intactbuilders.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -7,3 +6,74 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+
+# Site Settings
+favicon: "/intactbuilders.com/icons/favicon-32x32.png"
+companyName: Intact Builders
+lightTagLine: Hi there...
+boldTagLine: It's good to see you here!
+extraTagLine: ":)"
+homeBackground: "/intactbuilders.com/assets/images/backgrounds/bg1.jpg"
+contactBackground: "/intactbuilders.com/assets/images/backgrounds/bg2.jpg"
+#################
+
+# About & Our Team
+aboutUs: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+team-1-name: Hashir
+team-1-avatar: "/intactbuilders.com/assets/images/avatars/avatar1.jpg"
+team-1-profession: Engineer
+team-1-facebook: "#"
+team-1-instagram: "#"
+
+team-2-name: Hashim
+team-1-avatar: "/intactbuilders.com/assets/images/avatars/avatar2.jpg"
+team-2-profession: Interior Designer
+team-2-facebook: "#"
+team-2-instagram: "#"
+##################
+
+# Our Services
+slide-1-head: Planning
+slide-1-image: "/intactbuilders.com/assets/images/slides/planning.jpg"
+slide-1-discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae"
+
+slide-2-head: Construction
+slide-2-image: "/intactbuilders.com/assets/images/slides/construction.jpg"
+slide-2-discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae"
+
+slide-3-head: Interior Designing
+slide-3-image: "/intactbuilders.com/assets/images/slides/interior.jpg"
+slide-3-discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae"
+##############
+
+# Social Icons
+intactFacebook: "#"
+intactInstagram: "#"
+intactTwitter: "#"
+##############
+
+# Gallery
+gallery-1-image: "/intactbuilders.com/assets/images/gallery/1.jpg"
+gallery-1-head: Lorem
+gallery-1-discription: "We had such a great time in LA!"
+
+gallery-2-image: "/intactbuilders.com/assets/images/gallery/2.jpg"
+gallery-2-head: Lorem
+gallery-2-discription: "We had such a great time in LA!"
+
+gallery-3-image: "/intactbuilders.com/assets/images/gallery/3.jpg"
+gallery-3-head: Lorem
+gallery-3-discription: "We had such a great time in LA!"
+
+gallery-4-image: "/intactbuilders.com/assets/images/gallery/4.jpg"
+gallery-4-head: Lorem
+gallery-4-discription: "We had such a great time in LA!"
+
+gallery-5-image: "/intactbuilders.com/assets/images/gallery/5.jpg"
+gallery-5-head: Lorem
+gallery-5-discription: "We had such a great time in LA!"
+
+gallery-6-image: "/intactbuilders.com/assets/images/gallery/6.jpg"
+gallery-6-head: Lorem
+gallery-6-discription: "We had such a great time in LA!"
+########2
