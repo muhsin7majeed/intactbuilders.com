@@ -8,7 +8,6 @@ title: Intact Builders
 markdown: kramdown
 
 # Site Settings
-favicon: "/intactbuilders.com/icons/favicon-32x32.png"
 companyName: Intact Builders
 lightTagLine: Hi there...
 boldTagLine: It's good to see you here!
@@ -26,7 +25,7 @@ team-1-facebook: "#"
 team-1-instagram: "#"
 
 team-2-name: Hashim
-team-1-avatar: "/intactbuilders.com/assets/images/avatars/avatar2.jpg"
+team-2-avatar: "/intactbuilders.com/assets/images/avatars/avatar2.jpg"
 team-2-profession: Interior Designer
 team-2-facebook: "#"
 team-2-instagram: "#"
