@@ -305,7 +305,7 @@ textarea {
 @media only screen and (max-width: 500px) {
     .heads {
         padding-top: 50%;
-        padding-left: 0;
+        padding-left: -50px;
     }
 
     .lighhead,
