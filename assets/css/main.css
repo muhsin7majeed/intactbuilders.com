@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* NavBar */
+.navbar {
+    background-color: #2B2B2B;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+
+/* Home */
+#home {
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+
+}
+
+#homeimg {
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
+    position: absolute;
+    z-index: -1;
+}
+
+.heads {
+    padding: 20% 5% 0 80px;
+    color: #ffffff;
+    max-width: 1000px;
+}
+
+.lighthead {
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+.boldhead {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+
+
+/* Our Team */
+.aboutus {
+    text-align: center;
+}
+
+#aboutushead {
+    padding-top: 70px;
+    font-size: 42px;
+}
+
+#aboutusdesc {
+    font-size: 28px;
+    max-width: 600px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ruler {
+    width: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    opacity: .1;
+    margin: 20px auto;
+}
+
+#ourteam {
+    font-size: 42px;
+    padding-top: 70px;
+}
+
+/* Our Team */
+.ourteamavatars img {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    object-fit: cover;
+
+}
+
+.team1,
+.team2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1 {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    text-align: right;
+    margin-left: -275px;
+}
+
+.team2 {
+    text-align: left;
+    margin-right: -250px;
+    margin-bottom: 100px;
+
+}
+
+.ourteamavatars {
+    overflow: hidden;
+}
+
+.hashir,
+.hashim {
+    margin: 0 50px;
+    line-height: 1px;
+}
+
+.hashir h1,
+.hashim h1 {
+    font-size: 45px;
+}
+
+.hashir a,
+.hashim a,
+.hashir2 a{
+    font-size: 20px;
+    color: #2B2B2B;
+    opacity: .8;
+}
+
+/* Services */
+#services{
+    
+}
+#services img{
+    object-fit: cover;
+    object-position: center;
+    min-height: 600px;
+    width: 100%;
+    filter: brightness(50%);
+    height: 100vh;
+}
+/* Contact Me */
+
+.contact{
+    width: 100%;
+    background: url(/assets/images/backgrounds/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+}
+.vis{
+    position: relative;
+    z-index: 6;
+}
+#conbg{
+    width: 100%;
+    min-height: 650px;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(40%);
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.contacthead{
+    margin-bottom: 10px;
+}
+.contact input{
+    min-width: 300px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 5px 0;
+    outline: none;
+    text-align: center;
+}
+textarea{
+    min-width: 300px;
+    width: 50%;
+    height: 150px;
+    border-radius: 50px;
+    border :none;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+#email{
+    margin-bottom: 10px;
+}
+.contact button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.social{
+    font-size: 20px;
+    color: #2B2B2B;
+}
+.social i{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: poi650r;
+    
+}
+
+/* Gallery */
+.gallery{
+    width: 100%;
+}
+.gallery img{
+    width: 100%;
+    min-height: 600px;
+    filter: brightness(90%);
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+.hashir2{
+    display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+    .boldhead{
+        font-size: 48px;
+    }
+    .lighthead{
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .heads{
+        padding-top: 35%;
+    }
+    .team1, .team2{
+        display: block;
+        text-align: center;
+        margin: 50px 0;
+    }
+    .hashir{
+        display: none;
+    }
+    .hashir2{
+        display: block;
+    }
+    .hashir,
+    .hashim {
+        margin: 0;
+        line-height: 1px;
+    }
+    #ourteam{
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .heads{
+        padding-top: 40%;
+    }
+    .lighhead,#aboutusdesc{
+        font-size: 22px;
+    }
+    .boldhead{
+        font-size: 32px;
+    }
+    #aboutushead,#ourteam{
+        font-size: 28px;
+    }
+    .ourteamavatars img {
+        width: 150px;
+        height: 150px;
+    }
+    .hashir h1,
+    .hashim h1 {
+        font-size: 30px;
+    }
+    .navbar-brand{
+        font-size: 16px !important;
+    }
+    .navbar{
+        padding: 0 20px !important;
+    }
+    .gallery img{
+        width: 100%;
+        min-height: 500px;
+        filter: brightness(90%);
+        height: 60vh;
+    }
+}
