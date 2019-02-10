@@ -154,7 +154,11 @@ body {
 
 .contact {
     width: 100%;
+<<<<<<< HEAD
     background: url({{ site.contactBackground }});
+=======
+    background: url(intactbuilders.com/assets/images/backgrounds/bg2.jpg);
+>>>>>>> bb2cdca56977e42245fea8a091282bc9c5ddd7a6
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
